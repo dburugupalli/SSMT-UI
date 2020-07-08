@@ -1,16 +1,17 @@
 import * as React from 'react';
 import { PageSection, Title }  from '@patternfly/react-core';
-import { Fetchdata } from '@app/fetchdata/fetchdata';
+
 // import { ChartPie, ChartThemeColor } from '@patternfly/react-charts';
 
 import {SimpleTable} from '@app/myTable/SimpleTable'
 import { ChartPie, ChartThemeColor } from '@patternfly/react-charts';
 
-
 //import {Table}from 'react-bootstrap-table';
 //import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
 
 import { Card,  CardBody } from '@patternfly/react-core';
+import {  } from '@patternfly/react-table';
+
 
 const horizontalFlex= {
   display: "flex",
